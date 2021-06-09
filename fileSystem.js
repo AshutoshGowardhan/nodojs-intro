@@ -20,3 +20,11 @@ fs.writeFile('./docs/blog1.txt', 'hello world', () => {
 fs.writeFile('./docs/blog2.txt', 'hello world, no file exits', () => {
     console.log('file was written')
 })
+
+//Directories
+fs.mkdir('./assests', (err) => {
+    if (err) {
+        console.log(err);
+    }
+    console.log('folder created')
+})
