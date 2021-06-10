@@ -1,0 +1,25 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fileSystem.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshutoshGowardhan/nodojs-intro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshutoshGowardhan/nodojs-intro/issues"
+  },
+  "homepage": "https://github.com/AshutoshGowardhan/nodojs-intro#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
